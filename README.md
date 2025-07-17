@@ -37,3 +37,6 @@ Bước 5: git commit -m "Thông tin những thay đổi khi code": đẩy commi
 Bước 6: git push origin Tên nhánh mình muốn đẩy code lên: để đẩy code lên pull request rồi vào github merge.
 
 Bước 7: vào github sau đó kiểm tra có thể merge thì merge
+
+Nếu đã lỡ commit D trong trường hợp đã kể trên thì dùng git reset --soft HEAD~1 để uncommit gần nhất còn nếu đã commit nhiều lần thì tìm hiểu về git pull origin main --rebase -> Sau đó sửa xung đột (nếu có), rồi: git add . git rebase --continue
+
